@@ -12,4 +12,9 @@ export class ItemComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  onEvent( id: any ) {
+    console.log(id);
+  }
+  
+
 }
